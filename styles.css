@@ -64,8 +64,70 @@ table {
 }
 
 /* GLOBAL STYLES (mobile first/small) */
-*{
+
+header, footer{
+    background-color: var(--midnight-blue);
+    color: var(--soft-white);
+    text-align: center;
+}
+
+header, main, footer{
+    max-width: 450px;
+    margin: 0 auto;
     font-family: Playfair Display;
+}
+
+header img{
+    width: 185px;
+    padding: .8rem 0;
+}
+
+h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+header p{
+    font-size: 1.2rem;
+    font-style: italic;
+    padding: 1.4rem 0;
+}
+
+nav{
+    background-color: var(--champagne-gold);
+}
+
+nav ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: .8rem 0;
+}
+
+nav a{
+    color: var(--midnight-blue);
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+main{
+    background-color: var(--soft-white);
+}
+
+footer address{
+    padding: 2.5rem 0;
+    font-size: .7rem;
+    line-height: 1.1rem;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--champagne-gold);
+}
+
+footer p{
+    padding-bottom: 1.5rem;
+    font-size: .7rem;
 }
 
 /* MEDIA QUERY (medium) */
