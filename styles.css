@@ -116,8 +116,8 @@ main{
 
 footer address{
     padding: 2.5rem 0;
-    font-size: .7rem;
-    line-height: 1.1rem;
+    font-size: .9rem;
+    line-height: 1.3rem;
 }
 
 footer a{
@@ -127,7 +127,7 @@ footer a{
 
 footer p{
     padding-bottom: 1.5rem;
-    font-size: .7rem;
+    font-size: .9rem;
 }
 
 h2{
