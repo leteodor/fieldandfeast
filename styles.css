@@ -154,6 +154,43 @@ hr{
     color: var(--champagne-gold);
 }
 
+h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1rem .9rem .5rem;
+}
+
+#offerings h2{
+    padding: 0;
+}
+
+#offerings div{
+    background-color: var(--olive-green);
+    color: var(--soft-white);
+    border-radius: 10px;
+}
+
+#offerings p{
+    padding: 0 .9rem .7rem;
+    font-size: .9rem;
+    line-height: 1.2rem;
+}
+
+#offerings ul{
+    list-style: initial;
+    margin-top: -.5rem;
+    padding-left: 2rem;
+    font-family: Playfair Display;
+    font-size: .9rem;
+    line-height: 1.2rem;
+}
+
+#offerings{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 0rem 1.5rem;
+}
 
 /* MEDIA QUERY (medium) */
 /* MEDIA QUERY (large) */
