@@ -141,10 +141,10 @@ h2{
 }
 
 h2 + p{
-    padding: .5rem 1.5rem 0;
+    padding: .3rem 1.5rem 0;
     font-size: .85rem;
     font-weight: 500;
-    line-height: 1.3rem;
+    line-height: 1.25rem;
 }
 
 hr{
@@ -168,6 +168,7 @@ h3{
     background-color: var(--olive-green);
     color: var(--soft-white);
     border-radius: 10px;
+    box-shadow: 1px 1.5px 5px var(--dark-charcoal);
 }
 
 #offerings p{
