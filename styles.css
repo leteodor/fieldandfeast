@@ -194,6 +194,28 @@ h3{
     padding: 0rem 1.5rem;
 }
 
+#gallery div{
+    box-shadow: .7px 1.2px 4px var(--dark-charcoal);
+    border-radius: 8px;
+    margin: 1rem 1.5rem .5rem;
+}
+
+#gallery img{
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.gallery p{
+    font-size: .7rem;
+    padding: .6rem;
+    font-style: italic;
+    text-align: center;
+    font-weight: 500;
+}
+
+
+
 /* MEDIA QUERY (medium) */
 /* MEDIA QUERY (large) */
 /* MEDIA QUERY (xl) */
