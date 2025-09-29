@@ -282,9 +282,6 @@ h3{
         grid-template-rows: .7rem 2.5rem 1fr 1fr;
         margin: 0 2.5rem;
     }
-    p{
-        font-size: 1rem;
-    }
     #offerings{
         margin: 0 1rem;
     }
@@ -299,5 +296,33 @@ h3{
 /* MEDIA QUERY (xl) */
 
 @media screen and (min-width: 1200px){
-    
+    #gallery{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1rem 2rem 1fr;
+        margin: 0 7rem;
+    }
+    hr{
+        margin: 1.2rem 7rem 1.6rem;
+    }
+    #offerings{
+        margin: 0 5.5rem;
+    }
+    #about{
+        margin: 0 5.5rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    h2 + p{
+        font-size: .95rem;
+        line-height: 1.35rem;
+    }
+    #offerings p{
+        font-size: .95rem;
+        line-height: 1.35rem;
+    }
+    #offerings ul{
+        font-size: .95rem;
+        line-height: 1.35rem;
+    }
 }
