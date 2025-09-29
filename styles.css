@@ -270,7 +270,23 @@ h3{
 /* MEDIA QUERY (large) */
 
 @media screen and (min-width: 900px){
-    
+    #gallery{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: .7rem 2.5rem 1fr 1fr;
+        margin: 0 2.5rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    #offerings{
+        margin: 0 1rem;
+    }
+    #about{
+        margin: 0 1rem;
+    }
+    hr{
+        margin: 1.2rem 2.5rem 1.6rem;
+    }
 }
 
 /* MEDIA QUERY (xl) */
