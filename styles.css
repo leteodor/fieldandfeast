@@ -228,5 +228,32 @@ h3{
 }
 
 /* MEDIA QUERY (medium) */
+
+@media screen and (min-width: 600px){
+    #offerings{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2rem 1fr 1fr;
+    }
+    #provisions{
+        grid-column: 1/1;
+    }
+    #dining{
+        grid-column: 2/2;
+    }
+    #basket{
+        grid-column: 1/-1;
+    }
+}
+
 /* MEDIA QUERY (large) */
+
+@media screen and (min-width: 900px){
+    
+}
+
 /* MEDIA QUERY (xl) */
+
+@media screen and (min-width: 1200px){
+    
+}
